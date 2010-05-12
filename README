@@ -1,0 +1,11 @@
+===============================================================
+Web Sockets
+===============================================================
+
+This project contains experiments arround the new webSockets API in HTML 5.
+
+Usefull links: 
+
+   * W3C Specification: http://dev.w3.org/html5/websockets/
+   * The WebSocket protocol: http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol-76
+   * WebSockets.org: http://www.websockets.org/
