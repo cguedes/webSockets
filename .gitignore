@@ -1,0 +1,8 @@
+# Ignore all .class files
+
+*.vcproj.*.user
+*.ncb
+*.aps
+*.suo
+*.cache
+*.pdb

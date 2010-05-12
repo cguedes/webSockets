@@ -1,0 +1,5 @@
+D:\cguedes\ISEL\Studdy\Web\WebSockets\MVCServer\bin\MVCServer.dll
+D:\cguedes\ISEL\Studdy\Web\WebSockets\MVCServer\bin\MVCServer.pdb
+D:\cguedes\ISEL\Studdy\Web\WebSockets\MVCServer\obj\Debug\ResolveAssemblyReference.cache
+D:\cguedes\ISEL\Studdy\Web\WebSockets\MVCServer\obj\Debug\MVCServer.dll
+D:\cguedes\ISEL\Studdy\Web\WebSockets\MVCServer\obj\Debug\MVCServer.pdb

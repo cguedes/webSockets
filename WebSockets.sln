@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketsServer", "WebSocketsServer\WebSocketsServer.csproj", "{18CA273E-B9B2-4508-9927-EC61563FB116}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSocketsClient", "WebSocketsClient\", "{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebSocketsClient"
+		Debug.AspNetCompiler.PhysicalPath = "WebSocketsClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSocketsClient\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSocketsClient"
+		Release.AspNetCompiler.PhysicalPath = "WebSocketsClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSocketsClient\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8080"
+		VWDDynamicPort = "false"
+		StartServerOnDebug = "true"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCServer", "MVCServer\MVCServer.csproj", "{83518BDB-6092-454D-B210-3ADEABEB6C93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Debug|x86.ActiveCfg = Debug|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Debug|x86.Build.0 = Debug|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Release|Any CPU.ActiveCfg = Release|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Release|Mixed Platforms.Build.0 = Release|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Release|x86.ActiveCfg = Release|x86
+		{18CA273E-B9B2-4508-9927-EC61563FB116}.Release|x86.Build.0 = Release|x86
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BE7BDF44-85AA-4144-B5CD-5A1E39D3AA9C}.Release|x86.ActiveCfg = Debug|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{83518BDB-6092-454D-B210-3ADEABEB6C93}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

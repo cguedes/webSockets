@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            
+            var status = $("#status");
+
+            $("#btnConnect").click(function() {
+                
+                var ws = new WebSocket("ws://localhost:8081");
+                status.html("ReadyState = " + ws.readyState);
+
+                ws.onopen = function() {
+                    status.html("connection opened");
+                }
+
+                we.onclose = function() {
+                    status.html("connection closed!");
+                }
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+    <h1>Web Sockets client</h1>
+    
+    <input id="btnConnect" type="button" value="Connect" />
+    <br />
+    <b>Status:</b> <code><span id="status" ></span></code>
+
+</body>
+</html>

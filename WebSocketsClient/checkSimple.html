@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+    Checking WebSocketS......
+    <br /><br />
+
+    <script type="text/javascript">
+        
+        function write(text)
+        {
+           document.write(text + "<br/>");
+        }
+
+        var ws = new WebSocket("ws://10.72.13.10:8081");
+
+        ws.onopen    = function(evt) { alert("Connection opened..."); }
+        ws.onerror   = function(evt) { alert("Connection error!"); }
+        ws.onmessage = function(evt) { alert("Message recived: " + evt);};
+        ws.onclose   = function(evt) { alert("Connection closed."); }
+        
+        //ws.send("Hello webSockets");
+        //ws.close();
+
+
+    </script>
+</body>
+</html>

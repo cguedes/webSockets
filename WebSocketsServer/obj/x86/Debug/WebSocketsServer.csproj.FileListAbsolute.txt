@@ -1,0 +1,5 @@
+D:\cguedes\ISEL\Studdy\Web\WebSockets\WebSocketsServer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\cguedes\ISEL\Studdy\Web\WebSockets\WebSocketsServer\bin\Debug\WebSocketsServer.exe
+D:\cguedes\ISEL\Studdy\Web\WebSockets\WebSocketsServer\bin\Debug\WebSocketsServer.pdb
+D:\cguedes\ISEL\Studdy\Web\WebSockets\WebSocketsServer\obj\x86\Debug\WebSocketsServer.exe
+D:\cguedes\ISEL\Studdy\Web\WebSockets\WebSocketsServer\obj\x86\Debug\WebSocketsServer.pdb

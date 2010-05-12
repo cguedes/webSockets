@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            
+		    $("#btnConnect").click(function(evt){
+                //var reqURL = "ws://bloga.jp/usr/koma/100images/dog";
+                var reqURL =  "ws://localhost:8181/websession";
+                var ws = new WebSocket(reqURL);
+                        
+                ws.onopen = function(e) 
+                {
+                    alert("opened");
+                    ws.send("get");
+                };
+                ws.onmessage = function(e) { alert("message"); };
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+    <h1>Web Sockets client</h1>
+    
+    <input id="btnConnect" type="button" value="Connect" />
+    <br />
+    <b>Status:</b> <code><span id="status" ></span></code>
+
+</body>
+</html>
