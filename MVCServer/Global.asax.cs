@@ -50,7 +50,7 @@ namespace MVCServer
                 Response.AppendHeader("Connection", "Upgrade");
                 Response.AppendHeader("WebSocket-Origin", origin);
                 Response.AppendHeader("WebSocket-Location", location);
-                Response.Flush();
+                //Response.Flush();
 
                 //Response.Output.WriteLine("HTTP/1.1 101 Web Socket Protocol Handshake");
                 //Response.Output.WriteLine("Upgrade: WebSocket");
@@ -61,7 +61,7 @@ namespace MVCServer
                 //Response.Output.Flush();
                 
 
-                while (true) { }
+                //while (true) { }
 
                 //  read type byte
                 byte type = (byte)Request.InputStream.ReadByte();

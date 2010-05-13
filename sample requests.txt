@@ -1,0 +1,7 @@
+GET /Demo1/ws HTTP/1.1
+Host: localhost
+connection: Upgrade
+Upgrade: WebSocket
+
+GET /Demo1 HTTP/1.1
+Host: localhost
